@@ -1,0 +1,226 @@
+[2026-03-25T14:25:50.880Z] Route /analyze failed: Failed to parse PDF resume
+[2026-03-25T14:29:11.654Z] Gemini API Call Failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:37:20)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:30:24
+
+[2026-03-25T14:29:11.654Z] Route /analyze failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-25T14:30:16.379Z] Gemini API Call Failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:37:20)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:30:24
+
+[2026-03-25T14:30:16.380Z] Route /analyze failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-25T14:40:13.708Z] Gemini API Call Failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:37:20)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:30:24
+
+[2026-03-25T14:40:13.709Z] Route /analyze failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-25T14:48:45.788Z] Gemini API Call Failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:37:20)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:30:24
+
+[2026-03-25T14:48:45.790Z] Route /analyze failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-25T14:53:13.957Z] Gemini API Call Failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:37:20)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:30:24
+
+[2026-03-25T14:53:13.958Z] Route /analyze failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-25T16:47:44.454Z] Gemini API Call Failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:37:20)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:30:24
+
+[2026-03-25T16:47:44.454Z] Route /analyze failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-25T16:56:14.203Z] Gemini API Call Failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [404 Not Found] models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:37:20)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T16:57:24.860Z] Gemini API Call Failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 35.123521235s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:37:20)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T16:57:34.129Z] Gemini API Call Failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 25.782789337s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"25s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:37:20)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T16:58:43.500Z] Gemini API Call Failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 16.468562436s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"16s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:37:20)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T17:01:36.560Z] Gemini API attempt 1 failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 23.418938061s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"23s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:96:22)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T17:01:37.729Z] Gemini API attempt 2 failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 22.179678183s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"22s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:96:22)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T17:01:37.730Z] Gemini API — all retries failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 22.179678183s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"22s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:96:22)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T17:03:02.278Z] Gemini API attempt 1 failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 57.633430186s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"57s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:96:22)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T17:03:03.471Z] Gemini API attempt 2 failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 56.43647785s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:96:22)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T17:03:03.471Z] Gemini API — all retries failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 56.43647785s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"56s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:96:22)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T17:12:45.644Z] Gemini API attempt 1 failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 14.300290601s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash","location":"global"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"14s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:96:22)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T17:12:46.835Z] Gemini API attempt 2 failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 13.111353456s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"13s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:96:22)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
+[2026-03-25T17:12:46.835Z] Gemini API — all retries failed
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 13.111353456s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"13s"}]
+    at handleResponseNotOk (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async makeRequest (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async analyzeResumeWithAI (file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/services/ai.js:96:22)
+    at async file:///Users/neerajruwali/Desktop/AI%20RESUME%20ANALYZER/server/routes/analysis.js:52:20
+
