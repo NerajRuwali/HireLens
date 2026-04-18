@@ -28,18 +28,18 @@ function Navbar({ theme, toggleTheme }) {
   }
 
   return (
-    <div style={{ 
-      display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '24px auto', 
+    <div style={{
+      display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '24px auto',
       maxWidth: '1152px', position: 'sticky', top: '24px', zIndex: 50, padding: '0 24px',
       transition: 'all 0.3s ease-in-out'
     }}>
-      
+
       {/* 1. Left Tab - Logo */}
-      <motion.div 
+      <motion.div
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         className="glass-card"
-        style={{ 
+        style={{
           padding: '8px 24px', borderRadius: '999px', display: 'flex', alignItems: 'center',
           backgroundColor: scrolled ? 'var(--glass-bg)' : 'transparent',
           boxShadow: scrolled ? '0 10px 30px -10px rgba(0,0,0,0.1)' : 'none',
@@ -66,12 +66,12 @@ function Navbar({ theme, toggleTheme }) {
       </motion.div>
 
       {/* 2. Center Tab - About */}
-      <motion.div 
+      <motion.div
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.1 }}
         className="glass-card"
-        style={{ 
+        style={{
           padding: '12px 32px', borderRadius: '999px', display: 'flex', alignItems: 'center', justifyContent: 'center',
           backgroundColor: scrolled ? 'var(--glass-bg)' : 'transparent',
           boxShadow: scrolled ? '0 10px 30px -10px rgba(0,0,0,0.1)' : 'none',
@@ -80,21 +80,21 @@ function Navbar({ theme, toggleTheme }) {
           transition: 'all 0.3s ease-in-out'
         }}
       >
-        <Link to="/" style={{ textDecoration: 'none', color: 'var(--text-muted)', fontWeight: 600, transition: 'color 0.2s', fontSize: '1.05rem', marginRight: '24px' }} onMouseOver={e => e.target.style.color='var(--text-main)'} onMouseOut={e => e.target.style.color='var(--text-muted)'}>
+        <Link to="/" style={{ textDecoration: 'none', color: 'var(--text-muted)', fontWeight: 600, transition: 'color 0.2s', fontSize: '1.05rem', marginRight: '24px' }} onMouseOver={e => e.target.style.color = 'var(--text-main)'} onMouseOut={e => e.target.style.color = 'var(--text-muted)'}>
           About
         </Link>
-        <Link to="/history" style={{ textDecoration: 'none', color: 'var(--text-muted)', fontWeight: 600, transition: 'color 0.2s', fontSize: '1.05rem' }} onMouseOver={e => e.target.style.color='var(--text-main)'} onMouseOut={e => e.target.style.color='var(--text-muted)'}>
+        <Link to="/history" style={{ textDecoration: 'none', color: 'var(--text-muted)', fontWeight: 600, transition: 'color 0.2s', fontSize: '1.05rem' }} onMouseOver={e => e.target.style.color = 'var(--text-main)'} onMouseOut={e => e.target.style.color = 'var(--text-muted)'}>
           History
         </Link>
       </motion.div>
 
       {/* 3. Right Tab - Actions (Theme + Auth) */}
-      <motion.div 
+      <motion.div
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2 }}
         className="glass-card"
-        style={{ 
+        style={{
           padding: '6px 16px 6px 6px', borderRadius: '999px', display: 'flex', alignItems: 'center', gap: '16px',
           backgroundColor: scrolled ? 'var(--glass-bg)' : 'transparent',
           boxShadow: scrolled ? '0 10px 30px -10px rgba(0,0,0,0.1)' : 'none',
@@ -103,8 +103,8 @@ function Navbar({ theme, toggleTheme }) {
           transition: 'all 0.3s ease-in-out'
         }}
       >
-        <button 
-          onClick={toggleTheme} 
+        <button
+          onClick={toggleTheme}
           aria-label="Toggle theme"
           style={{
             background: 'var(--bg-gradient-1)',
@@ -123,7 +123,7 @@ function Navbar({ theme, toggleTheme }) {
         >
           {theme === 'dark' ? <BsSunFill size={20} /> : <BsMoonStarsFill size={20} />}
         </button>
-        <button 
+        <button
           onClick={handleAuthAction}
           style={{
             background: 'transparent',

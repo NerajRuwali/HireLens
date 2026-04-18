@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { FiCheckCircle, FiAlertCircle } from 'react-icons/fi'
+import { FiCheckCircle, FiAlertCircle, FiX } from 'react-icons/fi'
 
 function Toast({ message, type, onClose }) {
   const isError = type === 'error'
@@ -8,41 +8,26 @@ function Toast({ message, type, onClose }) {
     <AnimatePresence>
       {message && (
         <motion.div
-          initial={{ opacity: 0, y: -50, scale: 0.9 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          exit={{ opacity: 0, y: -20, scale: 0.9 }}
-          transition={{ type: 'spring', bounce: 0.4 }}
+          initial={{ opacity: 0, y: -20, x: '-50%', scale: 0.95 }}
+          animate={{ opacity: 1, y: 0, x: '-50%', scale: 1 }}
+          exit={{ opacity: 0, y: -20, x: '-50%', scale: 0.95 }}
+          transition={{ type: 'spring', bounce: 0.3, duration: 0.6 }}
+          className={`fixed top-8 left-1/2 -translate-x-1/2 z-[100] flex items-center gap-3 px-6 py-3.5 rounded-2xl shadow-2xl border backdrop-blur-md cursor-pointer group ${
+            isError 
+              ? 'bg-red-50/90 border-red-100 text-red-600' 
+              : 'bg-white/90 border-purple-100 text-primary'
+          }`}
           onClick={onClose}
-          style={{
-            position: 'fixed',
-            top: '24px',
-            left: '50%',
-            transform: 'translateX(-50%)',
-            background: 'var(--glass-bg)',
-            backdropFilter: 'blur(20px)',
-            border: `1px solid ${isError ? 'rgba(239, 68, 68, 0.4)' : 'rgba(34, 197, 94, 0.4)'}`,
-            boxShadow: 'var(--shadow-lg)',
-            padding: '12px 24px',
-            borderRadius: '999px',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '12px',
-            cursor: 'pointer',
-            zIndex: 100
-          }}
         >
-          {isError ? (
-            <FiAlertCircle size={20} color="var(--danger)" />
-          ) : (
-            <FiCheckCircle size={20} color="var(--secondary)" />
-          )}
-          <span style={{ 
-            fontWeight: 600, 
-            fontSize: '0.95rem',
-            color: isError ? 'var(--danger)' : 'var(--secondary)'
-          }}>
+          <div className={`p-1 rounded-lg ${isError ? 'bg-red-100' : 'bg-purple-100'}`}>
+            {isError ? <FiAlertCircle size={18} /> : <FiCheckCircle size={18} />}
+          </div>
+          <span className="text-sm font-bold tracking-tight whitespace-nowrap">
             {message}
           </span>
+          <div className="ml-2 p-1 rounded-lg hover:bg-black/5 transition-colors opacity-0 group-hover:opacity-100">
+            <FiX size={14} />
+          </div>
         </motion.div>
       )}
     </AnimatePresence>
@@ -50,3 +35,4 @@ function Toast({ message, type, onClose }) {
 }
 
 export default Toast
+
